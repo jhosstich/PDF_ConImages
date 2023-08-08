@@ -1,0 +1,38 @@
+{
+   "color_modes":{
+      "/DeviceRGB":"RGB",
+      "/DefaultRGB":"RGB",
+      "/DeviceCMYK":"CMYK",
+      "/DefaultCMYK":"CMYK",
+      "/DeviceGray":"L",
+      "/DefaultGray":"L",
+      "/Indexed":"P"
+   },
+   "filters":[
+      "/ASCIIHexDecode",
+      "/AHx",
+      "/FlateDecode",
+      "/Fl",
+      "/CCITTFaxDecode",
+      "/CCF",
+      "/LZWDecode",
+      "/LZW",
+      "/DCTDecode",
+      "/DCT",
+      "/JPXDecode",
+      "/ASCII85Decode",
+      "/A85",
+      "/RunLengthDecode",
+      "/RL",
+      "/JBIG2Decode",
+      "raw"
+   ],
+
+   "sufijoImagenes":[".bmp",".jpg",".tiff",".png",".tif",".jpeg",".JPG",".PNG",".TIFF", ".JPEG", ".JPG",".TIF",".BMP"],
+
+   "tiposficheros":[
+      ".png",
+      ".json",
+      ".pdf"
+   ]
+}
