@@ -31,7 +31,7 @@ def set_image_dpi(image):
     length_x, width_y = image.size
     factor = min(1, float(1024.0 / length_x))
     size = int(factor * length_x), int(factor * width_y)
-    im_resized = image.resize(size, Image.ANTIALIAS)
+    im_resized = image.resize(size, Image.LANCZOS)
     return im_resized
 
 def run_filters(fileName, page):
