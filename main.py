@@ -7,8 +7,8 @@ def main(path = None):
     if path is None:
         path = os.getcwd()
     desktop = pathlib.Path(path)
-    desktop.rglob("*")
-    lista = list(desktop.rglob("*"))
+    #desktop.rglob("*")
+    lista = os.listdir(path)
     conta = len(lista)
     archivos = []
 
