@@ -278,5 +278,5 @@ def get_object_images(xObject, file_dest, image_number, blob, file_name, pagina,
         print(text = ' Exception:' + str(e))
     finally:
         return cont_images, image_number, pdf_filtered_images
-
+ 
 docsPath = ""
